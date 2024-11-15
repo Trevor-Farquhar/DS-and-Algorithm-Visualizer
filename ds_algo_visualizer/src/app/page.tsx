@@ -15,6 +15,7 @@ console.log("test")
                 <li><Link href="/stacks">Queues</Link></li> 
                 <li><Link href="/stacks">Singly Linked Lists</Link></li>
                 <li><Link href="/stacks">Doubly Linked Lists</Link></li>
+                <li><Link href="/stacks">Hash Maps</Link></li>
                 <li><Link href="/stacks">Binary Search</Link></li>
                 <li><Link href="/stacks">Breadth First Search</Link></li>
                 <li><Link href="/stacks">Depth First Search</Link></li>
@@ -23,7 +24,7 @@ console.log("test")
                 <li><Link href="/stacks">Merge Sort</Link></li>
                 <li><Link href="/stacks">Selection Sort</Link></li>
                 <li><Link href="/stacks">Linear Search</Link></li>
-                <li><Link href="/stacks">Hash Maps</Link></li>
+                
 
             </ul>
         </div>
