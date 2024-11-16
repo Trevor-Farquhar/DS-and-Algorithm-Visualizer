@@ -25,7 +25,6 @@ console.log("test")
                 <li><Link href="/stacks">Selection Sort</Link></li>
                 <li><Link href="/stacks">Linear Search</Link></li>
                 
-
             </ul>
         </div>
     );
