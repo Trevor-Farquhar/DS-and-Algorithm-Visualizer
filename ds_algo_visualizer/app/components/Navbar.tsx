@@ -1,5 +1,8 @@
 import Link from "next/link"
 import Image from "next/image"
+import { } from "react-dom"
+
+
 
 const Navbar = () => {
     return (
@@ -9,7 +12,9 @@ const Navbar = () => {
                     <Image src="/logo.png" alt="logo" width={144} height={30} />
                 </Link>
 
-                <h1 className="text-black">Test</h1> {/** This is a place holder for the other values in the navbar */}
+                <div className="flex items-center gap-5 text-black">
+                    <button>Stacks</button>
+                </div>
 
             </nav>
         </header>
