@@ -1,10 +1,10 @@
 import Link from "next/link"
 import Image from "next/image"
-import { } from "react-dom"
-
-
+import { BrowserRouter, Route } from "react-router-dom"
 
 const Navbar = () => {
+    
+
     return (
         <header className="px-5 py-3 bg-white shadow-sm font-work-sans">
             <nav className="flex justify-between items-center">
