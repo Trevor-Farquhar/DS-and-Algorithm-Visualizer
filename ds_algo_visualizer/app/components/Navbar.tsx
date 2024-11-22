@@ -1,28 +1,36 @@
 'use client'
 import Link from "next/link"
-import Image from "next/image"
-import { useNavigate } from "react-router-dom"
-
 
 const Navbar = () => {
-    // let navigate = useNavigate();
-    // function handleClick() {
-    //     navigate('/test_routes/test_routes')
-    // }
-
-    
     return (
         <header className="px-5 py-3 bg-white shadow-sm font-work-sans">
             <nav className="flex justify-between items-center">
                 <Link href="/">
-                    {/* <Image src="/logo.png" alt="logo" width={144} height={30} /> */}
                     <h1 className="text-3xl text-black">Site Name</h1>
                 </Link>
 
                 <div className="flex items-center gap-5 text-black">
-                    <ul>
+                    <ul className="hidden xl:flex items-center gap-12 font-semibold text-base">
                         <li>
-                            <a href="/test"></a>
+                            <Link href="/">Home</Link>
+                        </li>
+                        <li className="p-3 hover:bg-sky-400 hover:text-white rounded-md transition-all cursor-pointer">
+                            <Link href="/test_route">Stacks</Link>
+                        </li>
+                        <li>
+                            <Link href="/queues">Queues</Link>
+                        </li>
+                        <li>
+                            <Link href="/hashmaps">Hashmaps</Link>
+                        </li>
+                        <li>
+                            <Link href="/linked-lists">Linked Lists</Link>
+                        </li>
+                        <li>
+                            <Link href="/trees">Trees</Link>
+                        </li>
+                        <li>
+                            <Link href="/sorting">Sorting</Link>
                         </li>
                     </ul>
                 </div>
